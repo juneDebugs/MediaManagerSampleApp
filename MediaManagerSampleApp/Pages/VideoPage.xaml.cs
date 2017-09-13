@@ -15,15 +15,14 @@ namespace MediaManagerSampleApp
         {
             InitializeComponent();
 
-            //CrossMediaManager.Current.PlayingChanged += (sender, e) =>
-            //{
-            //  Device.BeginInvokeOnMainThread(() =>
-            //  {
-            //      //ProgressBar.Progress = e.Progress;
-            //      //Duration.Text = "" + e.Duration.TotalSeconds + " seconds";
-            //  });
-            //};
-
+            CrossMediaManager.Current.PlayingChanged += (sender, e) =>
+            {
+                Device.BeginInvokeOnMainThread(() =>
+                {
+                    ProgressBar.Progress = e.Progress;
+                    Duration.Text = "" + e.Duration.TotalSeconds + " seconds";
+                });
+            };
         }
 
         protected override void OnAppearing()

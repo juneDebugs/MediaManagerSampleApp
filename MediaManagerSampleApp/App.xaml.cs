@@ -6,9 +6,11 @@ namespace MediaManagerSampleApp
     {
         public App()
         {
+			var workaround = typeof(VideoView);
+
             InitializeComponent();
 
-            MainPage = new MediaManagerSampleAppPage();
+            MainPage = new NavigationPage(new VideoPage);
         }
 
         protected override void OnStart()

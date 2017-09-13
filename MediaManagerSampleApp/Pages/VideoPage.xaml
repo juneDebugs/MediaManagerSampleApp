@@ -29,6 +29,7 @@
                 <ColumnDefinition/> 
                 <ColumnDefinition/> 
             </Grid.ColumnDefinitions>
+
             <StackLayout Grid.Row="0" Grid.ColumnSpan="3" Orientation="Vertical">
             <StackLayout Orientation="Horizontal">
                     <Label Text="Duration: "></Label>
@@ -43,8 +44,4 @@
         </Grid>
     </Grid>
 
-
-
-
-    
 </ContentPage>

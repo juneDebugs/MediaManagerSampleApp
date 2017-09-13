@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{AA618457-6F70-4944-B04D-32ED5AE2A427}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MediaManagerSampleApp/Pages/VideoPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MediaManagerSampleApp/App.xaml.cs">
     <Files>
-      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml" Line="19" Column="25" />
-      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml" Line="32" Column="13" />
+      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml.cs" Line="25" Column="15" />
+      <File FileName="iOS/AppDelegate.cs" Line="18" Column="13" />
+      <File FileName="MediaManagerSampleApp/packages.config" Line="1" Column="1" />
+      <File FileName="MediaManagerSampleApp/App.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
