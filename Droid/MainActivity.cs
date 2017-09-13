@@ -8,6 +8,8 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+using Plugin.MediaManager.Forms.Android;
+
 namespace MediaManagerSampleApp.Droid
 {
     [Activity(Label = "MediaManagerSampleApp.Droid", Icon = "@drawable/icon", Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -21,6 +23,8 @@ namespace MediaManagerSampleApp.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+			
+            VideoViewRenderer.Init();
 
             LoadApplication(new App());
         }
