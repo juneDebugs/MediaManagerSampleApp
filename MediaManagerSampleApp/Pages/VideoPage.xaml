@@ -72,8 +72,16 @@
                 HeightRequest="50" WidthRequest="100" >
             </Button>
             
-            <Button Grid.Row="1" Grid.Column="2" TextColor="White" Text="Stop" BackgroundColor="Gray" HeightRequest="50" VerticalOptions="Center" WidthRequest="100" Clicked="StopClicked"></Button>
+            <Button 
+                Text="Stop" 
+                TextColor="White" 
+                Clicked="StopClicked"
+                BackgroundColor="Gray" 
+                VerticalOptions="Center" 
+                Grid.Row="1" Grid.Column="2" 
+                HeightRequest="50" WidthRequest="100" >
+            </Button>
+            
         </Grid>
     </Grid>
-
 </ContentPage>
