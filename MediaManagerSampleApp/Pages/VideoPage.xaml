@@ -35,16 +35,39 @@
                 <ColumnDefinition/> 
             </Grid.ColumnDefinitions>
 
-            <StackLayout Grid.Row="0" Grid.ColumnSpan="3" Orientation="Vertical">
-            <StackLayout Orientation="Horizontal">
-                    <Label Text="Duration: "></Label>
-                    <Label x:Name="Duration"/>
-                </StackLayout>
-                <ProgressBar x:Name="ProgressBar" Grid.ColumnSpan="3" HorizontalOptions="FillAndExpand"></ProgressBar>
+            <StackLayout 
+                Orientation="Vertical"
+                Grid.Row="0" Grid.ColumnSpan="3" >
+            <StackLayout 
+                    Orientation="Horizontal">
+                        <Label 
+                            Text="Duration: ">
+                        </Label>
+                        <Label x:Name="Duration"/>
+            </StackLayout>
+                <ProgressBar 
+                    x:Name="ProgressBar" 
+                    Grid.ColumnSpan="3" 
+                    HorizontalOptions="FillAndExpand">
+                </ProgressBar>
             </StackLayout>
             
-            <Button Grid.Row="1" Grid.Column="0" TextColor="White" BackgroundColor="Gray" HeightRequest="50" VerticalOptions="Center" Text="Play" WidthRequest="100" Clicked="PlayClicked"></Button>
-            <Button Grid.Row="1" Grid.Column="1" TextColor="White" Text="Pause" BackgroundColor="Gray" HeightRequest="50" VerticalOptions="Center" WidthRequest="100" Clicked="PauseClicked"></Button>
+            <Button 
+                Text="Play" 
+                TextColor="White" 
+                Clicked="PlayClicked"
+                BackgroundColor="Gray" 
+                VerticalOptions="Center" 
+                Grid.Row="1" Grid.Column="0" 
+                HeightRequest="50" WidthRequest="100" > 
+            </Button>
+            
+            <Button 
+                Grid.Row="1" Grid.Column="1" 
+                TextColor="White" 
+                Text="Pause" 
+                BackgroundColor="Gray" 
+                HeightRequest="50" VerticalOptions="Center" WidthRequest="100" Clicked="PauseClicked"></Button>
             <Button Grid.Row="1" Grid.Column="2" TextColor="White" Text="Stop" BackgroundColor="Gray" HeightRequest="50" VerticalOptions="Center" WidthRequest="100" Clicked="StopClicked"></Button>
         </Grid>
     </Grid>
