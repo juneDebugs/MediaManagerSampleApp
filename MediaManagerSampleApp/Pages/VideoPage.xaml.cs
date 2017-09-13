@@ -11,23 +11,22 @@ namespace MediaManagerSampleApp
     {
         private IPlaybackController PlaybackController => CrossMediaManager.Current.PlaybackController;
 
-        public VideosListLayout()
+        public VideoPage()
         {
             InitializeComponent();
 
-            CrossMediaManager.Current.PlayingChanged += (sender, e) =>
-            {
-                Device.BeginInvokeOnMainThread(() =>
-                {
-                    ProgressBar.Progress = e.Progress;
-                    Duration.Text = "" + e.Duration.TotalSeconds + " seconds";
-                });
-            };
+            //CrossMediaManager.Current.PlayingChanged += (sender, e) =>
+            //{
+            //    Device.BeginInvokeOnMainThread(() =>
+            //    {
+            //        ProgressBar.Progress = e.Progress;
+            //        Duration.Text = "" + e.Duration.TotalSeconds + " seconds";
+            //    });
+            //};
         }
 
         protected override void OnAppearing()
         {
-
             //PlaybackController.Play();
             videoView.Source = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
             PlaybackController.Play();

@@ -1,4 +1,5 @@
 ﻿using Xamarin.Forms;
+using Plugin.MediaManager.Forms;
 
 namespace MediaManagerSampleApp
 {
@@ -10,7 +11,7 @@ namespace MediaManagerSampleApp
 
             InitializeComponent();
 
-            MainPage = new NavigationPage(new VideoPage);
+            MainPage = new NavigationPage(new VideoPage());
         }
 
         protected override void OnStart()
