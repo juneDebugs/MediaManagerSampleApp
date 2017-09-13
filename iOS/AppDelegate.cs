@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Plugin.MediaManager.Forms.iOS;
 
-using Foundation;
 using UIKit;
+using Foundation;
+using Plugin.MediaManager.Forms.iOS;
 
 namespace MediaManagerSampleApp.iOS
 {
