@@ -63,11 +63,15 @@
             </Button>
             
             <Button 
-                Grid.Row="1" Grid.Column="1" 
-                TextColor="White" 
                 Text="Pause" 
+                TextColor="White" 
+                Clicked="PauseClicked"
                 BackgroundColor="Gray" 
-                HeightRequest="50" VerticalOptions="Center" WidthRequest="100" Clicked="PauseClicked"></Button>
+                VerticalOptions="Center" 
+                Grid.Row="1" Grid.Column="1" 
+                HeightRequest="50" WidthRequest="100" >
+            </Button>
+            
             <Button Grid.Row="1" Grid.Column="2" TextColor="White" Text="Stop" BackgroundColor="Gray" HeightRequest="50" VerticalOptions="Center" WidthRequest="100" Clicked="StopClicked"></Button>
         </Grid>
     </Grid>
