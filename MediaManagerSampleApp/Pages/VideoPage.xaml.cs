@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Plugin.MediaManager;
-using Plugin.MediaManager.Abstractions;
-using Plugin.MediaManager.Forms;
+
 using Xamarin.Forms;
+
+using Plugin.MediaManager;
+using Plugin.MediaManager.Forms;
+using Plugin.MediaManager.Abstractions;
 
 namespace MediaManagerSampleApp
 {
@@ -27,7 +29,6 @@ namespace MediaManagerSampleApp
 
         protected override void OnAppearing()
         {
-            //PlaybackController.Play();
             videoView.Source = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
             PlaybackController.Play();
         }
