@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{AA618457-6F70-4944-B04D-32ED5AE2A427}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MediaManagerSampleApp/Pages/VideoPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MediaManagerSampleApp/Pages/VideoPage.xaml.cs">
     <Files>
-      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml" Line="5" Column="5" />
+      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml" Line="19" Column="25" />
+      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
