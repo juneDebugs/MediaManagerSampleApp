@@ -1,12 +1,5 @@
 ﻿<Properties StartupConfiguration="{97773E0D-CDE8-4E7F-98DC-26E6525442C0}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MediaManagerSampleApp/App.xaml">
-    <Files>
-      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml" Line="20" Column="8" />
-      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml.cs" Line="32" Column="80" />
-      <File FileName="MediaManagerSampleApp/App.xaml.cs" Line="12" Column="1" />
-      <File FileName="MediaManagerSampleApp/App.xaml" Line="7" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
