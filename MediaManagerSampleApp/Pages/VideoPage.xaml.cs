@@ -29,8 +29,7 @@ namespace MediaManagerSampleApp
 
         protected override void OnAppearing()
         {
-            videoView.Source = "https://media.w3.org/2010/05/sintel/trailer.mp4";
-            //videoView.Source = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
+            //videoView.Source = "https://media.w3.org/2010/05/sintel/trailer.mp4";
             PlaybackController.Play();
         }
 
