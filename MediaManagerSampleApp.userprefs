@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{AA618457-6F70-4944-B04D-32ED5AE2A427}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="MediaManagerSampleApp/Pages/VideoPage.xaml.cs">
     <Files>
-      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml" Line="19" Column="79" />
-      <File FileName="MediaManagerSampleApp/obj/Debug/MediaManagerSampleApp.Pages.VideoPage.xaml.g.cs" Line="29" Column="1" />
-      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml.cs" Line="32" Column="15" />
-      <File FileName="MediaManagerSampleApp/App.xaml.cs" Line="14" Column="13" />
+      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml" Line="88" Column="1" />
+      <File FileName="MediaManagerSampleApp/obj/Debug/MediaManagerSampleApp.Pages.VideoPage.xaml.g.cs" Line="36" Column="1" />
+      <File FileName="MediaManagerSampleApp/Pages/VideoPage.xaml.cs" Line="45" Column="9" />
       <File FileName="iOS/AppDelegate.cs" Line="26" Column="1" />
       <File FileName="MediaManagerSampleApp/App.xaml" Line="7" Column="1" />
     </Files>
@@ -15,7 +14,7 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.MediaManagerSampleApp.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MediaManagerSampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.661D6C1C-85D0-4E8B-AC93-A20ABA0A7F4D">
+  <MonoDevelop.Ide.ItemProperties.MediaManagerSampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.129B27F1-AE88-4C9E-8F20-B32E2D931046">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.MediaManagerSampleApp.iOS>
   <MultiItemStartupConfigurations />
